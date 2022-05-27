@@ -11,5 +11,7 @@ public class ProxyConnexion implements Connexion {
     public int port;
     public Socket socket;
 
+    public ProxyConnexion(String ip, int port, Socket socket) {
 
+    }
 }
